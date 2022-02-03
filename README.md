@@ -2,8 +2,20 @@
 An Android memory game with customizable options
 
 <p float="middle">
-    <img width="250px" src='https://github.com/rpandey1234/MyMemory/blob/main/assets/customWinConfetti.png' />
-    <img width="250px" src='https://github.com/rpandey1234/MyMemory/blob/main/assets/creationFlow.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/1.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/2.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/3.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/4.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/5.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/6.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/7.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/8.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/9.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/10.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/11.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/12.png' />
+    <img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/13.png' />
+  
 </p>
 
 Open source libraries used:
