@@ -1,4 +1,7 @@
 # MemoryGame
+
+<img width="250px" src='https://github.com/Srihitha18798/MemoryGame/blob/master/app/src/main/assets/vedio.gif'/>
+
 An Android memory game with customizable options
 
 <p float="middle">
