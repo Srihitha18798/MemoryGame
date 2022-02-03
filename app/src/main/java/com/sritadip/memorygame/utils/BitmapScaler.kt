@@ -3,6 +3,7 @@ package com.sritadip.memorygame.utils
 import android.graphics.Bitmap
 
 object BitmapScaler {
+
     // Scale and maintain aspect ratio given a desired width
     // BitmapScaler.scaleToFitWidth(bitmap, 100);
     fun scaleToFitWidth(b: Bitmap, width: Int): Bitmap {

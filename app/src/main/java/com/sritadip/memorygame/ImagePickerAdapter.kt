@@ -19,7 +19,7 @@ class ImagePickerAdapter(
 ) : RecyclerView.Adapter<ImagePickerAdapter.ViewHolder>() {
 
 
-    interface ImageClickListener{
+    interface ImageClickListener {
         fun onPlaceholderClicked()
     }
 
@@ -27,20 +27,19 @@ class ImagePickerAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.card_image, parent, false)
         val cardWidth = parent.width / boardSize.getWidth()
-        val cardHeight = parent.height/boardSize.getHeight()
-        val cardSideLength=min(cardWidth,cardHeight)
-        val layoutParams=view.findViewById<ImageView>(R.id.ivCustomImage).layoutParams
-        layoutParams.width=cardSideLength
-        layoutParams.height=cardSideLength
+        val cardHeight = parent.height / boardSize.getHeight()
+        val cardSideLength = min(cardWidth, cardHeight)
+        val layoutParams = view.findViewById<ImageView>(R.id.ivCustomImage).layoutParams
+        layoutParams.width = cardSideLength
+        layoutParams.height = cardSideLength
 
-        return  ViewHolder(view)
+        return ViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        if(position < imageUris.size){
+        if (position < imageUris.size) {
             holder.bind(imageUris[position])
-        }
-        else{
+        } else {
             holder.bind()
         }
     }
@@ -49,14 +48,15 @@ class ImagePickerAdapter(
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        private val ivCustomImage=itemView.findViewById<ImageView>(R.id.ivCustomImage)
-        fun bind(uri: Uri){
+        private val ivCustomImage = itemView.findViewById<ImageView>(R.id.ivCustomImage)
+        fun bind(uri: Uri) {
             ivCustomImage.setImageURI(uri)
             ivCustomImage.setOnClickListener(null)
 
         }
+
         fun bind() {
-            ivCustomImage.setOnClickListener{
+            ivCustomImage.setOnClickListener {
 
                 imageClickListener.onPlaceholderClicked()
             }

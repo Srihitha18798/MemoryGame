@@ -2,9 +2,9 @@ package com.sritadip.memorygame.utils
 
 import com.sritadip.memorygame.R
 
-const val EXTRA_GAME_NAME="EXTRA_GAME_NAME"
-const val EXTRA_BOARD_SIZE="EXTRA_BOARD_SIZE"
-val DEFAULT_ICONS= listOf(
+const val EXTRA_GAME_NAME = "EXTRA_GAME_NAME"
+const val EXTRA_BOARD_SIZE = "EXTRA_BOARD_SIZE"
+val DEFAULT_ICONS = listOf(
         R.drawable.ic_face,
         R.drawable.ic_flower,
         R.drawable.ic_gift,

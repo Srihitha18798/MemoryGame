@@ -3,4 +3,16 @@
     <string name="GameWon">You won! Congratulations.</string>
     <string name="InvalidMove">Invalid move!</string>
     <string name="AlreadyWon">You already won!</string>
+    <string name="save">Save</string>
+    <string name="game_name_example_panda_fun">Game name: ( example: panda_fun)</string>
+    <string name="moves_0">Moves: 0</string>
+    <string name="pairs_0_4">Pairs: 0/4</string>
+    <string name="easy_4_x_2">Easy (4 x 2)</string>
+    <string name="medium_6_x_3">Medium (6 x 3)</string>
+    <string name="hard_6x_4">Hard (6x 4)</string>
+    <string name="enter_game_name">Enter game name</string>
+    <string name="refresh">Refresh</string>
+    <string name="choose_new_size">Choose new size</string>
+    <string name="download_custom_game">Download Custom Game</string>
+    <string name="create_custom_game">Create custom game</string>
 </resources>

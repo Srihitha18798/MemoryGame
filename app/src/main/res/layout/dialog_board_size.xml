@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -21,18 +20,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Easy (4 x 2)" />
+            android:text="@string/easy_4_x_2" />
 
         <RadioButton
             android:id="@+id/rbMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Medium (6 x 3)" />
+            android:text="@string/medium_6_x_3" />
 
         <RadioButton
             android:id="@+id/rbHard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hard (6x 4)" />
+            android:text="@string/hard_6x_4" />
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>

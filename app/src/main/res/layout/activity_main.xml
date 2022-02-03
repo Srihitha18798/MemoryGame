@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Moves: 0"
+                    android:text="@string/moves_0"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
             </androidx.cardview.widget.CardView>
 
@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Pairs: 0/4"
+                    android:text="@string/pairs_0_4"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
